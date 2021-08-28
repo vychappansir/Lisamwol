@@ -1,9 +1,9 @@
 {
-    "name": "PIKACHU BY AMEERSUHAIL",
-    "description": "pikachu bot - re-edited from asena. World’s first UserBot made for WhatsApp.",
-    "logo": "https://raw.githubusercontent.com/ameer-kallumthodi/pikachu/master/Pikachu-407x400.png",
+    "name": "LFA HERMIT",
+    "description": "maalooty bot - re-edited from asena. World’s first UserBot made for WhatsApp.",
+    "logo": "https://raw.githubusercontent.com/Lfahermit/maalooty/master/HERMIT.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/ameer-kallumthodi/pikachu",
+    "repository": "https://github.com/Lfahermit/maalooty",
     "website":   "under maintenance",
     "success_url": "under maintenance",
     "stack": "container",
@@ -94,7 +94,7 @@
          "BOT_NAME": {
             "description": "heading for .list command reply",
             "required": false,
-            "value": "•━━━━╼⤏PINKY BOT⤎╾━━━•"
+            "value": "•━━━━╼⤏MAALOOTY BOT⤎╾━━━•"
         },
         "HEROKU_API_KEY": {
             "description": "Herokuda API Keyiniz. Heroku API Key.",
@@ -151,7 +151,7 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "\n ```I Am Alive !!!```\n\n```Type``` *.help* ```for commands```\n\n```pikachu🧚‍♂️```\n\n```coded by ameer suhail```\n\n```wa.me/919946432377```\n\n```https://www.instagram.com/ameer_.su_hail```"
+            "value": "\n ```I Am Alive !!!```\n\n```Type``` *.help* ```for commands```\n\n```🧚‍♂️maalooty🧚‍♂️```\n\n```coded by Lfahermit```\n\n```wa.me/919150919486```\n\n```https://chat.whatsapp.com/EhjWcQtEEVN9iAt8p8ml2b```"
         },
         "BAN_MESSAGE": {
             "description": "Customizable kick Message! Use => default, to change back.",
