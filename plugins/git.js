@@ -11,19 +11,19 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     
     
    
-  r_text[0] = "https://www.pixelstalk.net/wp-content/uploads/2016/03/Pikachu-wallpaper-HD-dowload.jpg";
+  r_text[0] = "https://www.pixelstalk.net/wp-content/uploads/images4/Love-wallpaper-1.png";
     
     
     var i = Math.floor(1*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creater Ameer Suhail*
-*owner number wa.me/919946432377*
-*bot setting video : https://youtu.be/_D4ZYuUSXjs
-*githublink       https://github.com/ameer-kallumthodi/pikachu*
-*audio commads    https://github.com/ameer-kallumthodi/pikachu/tree/master/uploads*
-*sticker commads  https://github.com/ameer-kallumthodi/pikachu/tree/master/uploads*
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creater by Lfahermit*
+*owner number wa.me/919150919486*
+*bot setting video :https://youtu.be/8q8OCqR6rXQ
+*githublink       https://github.com/Lfahermit/maalooty*
+*audio commads    https://github.com/Lfahermit/maalooty/tree/master/uploads*
+*sticker commads  https://github.com/Lfahermit/maalooty/tree/master/uploads*
 `}) 
 
 }));
