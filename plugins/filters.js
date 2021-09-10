@@ -118,9 +118,9 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
         if (!!message.mention && message.mention[0] == '919150919486@s.whatsapp.net') {
-await message.client.sendMessage(message.jid, fs.readFileSync('./maalooty/Remix.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+await message.client.sendMessage(message.jid, fs.readFileSync('./maalooty/Da.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['Sathan','Da']
+const array = ['Sathan','Da  Black','help','Jeevan','Line','Njan paavam','power','Poyi','rip','Seen','SHALIN','ABIJITH','Aleena','Aleena1','Aleena2','Aleena3','alive','Aliya mention','Aliya','Ayin','Bab','BFA KINGS','Black','Block','Bomb','Bot','By','Chunk','CNK BLACK','Di','Entea aniyan kuttan','Girl','git','Gudnyt','HERMIT sed','HERMIT','HERMIT1','hermitgirl','Hi','Hii','I love you','Idd','Ividea','Kannan','Karayallea','KING 1','KING sed','Kiss','Kudea','Kundan','LALETTAN','LFA KING','LFA','love me','Love vendada','LUCIFER THERI','LUCIFER','maalooty','MFA SATHAN','Mood','Myr','Name','Nee','Njan verum','Oii','On','Onam','Onn','Oo','Ozhivaki','Paavam','Poda','Poli','Pro','Pubg','Rajasree','Rajavu','Remix','Rip','Set','Shalin','song','Thaniyea','Theap','Umbi','Vid','YR MEDIA HERMIT','YR MEDIA','YRMEDIA','Aliyaa','Aloo','Baa','Black','help','Jeevan','Line','Njan paavam','power','Poyi','rip','Seen','SHALIN']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
